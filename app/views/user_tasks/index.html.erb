@@ -10,4 +10,7 @@
 <br>
 <div id="tasks">
   <%= render @user_tasks %>
+  <% if @user_tasks.empty? %>
+     <img src="https://i.imgflip.com/pp7dt.jpg" />
+  <% end %>
 </div>
