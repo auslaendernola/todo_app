@@ -14,4 +14,8 @@ class SessionsController < ApplicationController
     session[:user_id] = nil
     redirect_to root_url, notice: 'Signed out!'
   end
+
+  def new
+    
+  end
 end
